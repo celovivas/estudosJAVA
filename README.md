@@ -1,2 +1,2 @@
 # estudosJAVA
-Repositório para estudo das principais novidades de melhorias das versões dos JAVA
+Repositório para estudo das principais novidades de melhorias das versões dos JAVA.
