@@ -32,6 +32,8 @@ public class ExemplosLambda {
 		new Thread(r2).start();
 		
 		//Thread com Lambda Ex 2
+		//Neste caso já passou o Runnable direto para dentro da classe
+		//Inclusive, pode chamar já o start direto tb
 		new Thread(
 				() -> System.out.println("Expressão lambda passada por parâmetro")
 				).start();

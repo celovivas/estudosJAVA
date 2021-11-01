@@ -4,6 +4,7 @@
 package br.com.estudosJAVA.java8;
 
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 
 /**
@@ -28,6 +29,11 @@ public class ExemplosMethodReference {
 
 		// Method Reference
 		nomes.forEach(System.out::println);
+		
+		// Comparando strings todas em minusculos SEM Method Reference
+		nomes.sort(Comparator.comparing(n -> n.toLowerCase()));
+		// COM Method Reference:  Dado uma String, utilize o método toLowerCase dela.
+		nomes.sort(Comparator.comparing(String::toLowerCase));
 	}
 
 }

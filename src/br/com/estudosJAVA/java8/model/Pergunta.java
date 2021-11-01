@@ -31,7 +31,7 @@ public class Pergunta {
 	
 	@Override
 	public String toString() {
-		return id + "; " + pergunta + "; " + autor  + "; Total Respostas: " + respostas.size();
+		return id + "--> " + pergunta + "--> Autor: " + autor  + "--> Total Respostas: " + respostas.size();
 	}
 
 	public Integer getId() {

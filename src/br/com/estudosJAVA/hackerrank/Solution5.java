@@ -18,7 +18,7 @@ public class Solution5 {
 //    	}
     	
 //    	final String regex = "(p|c|m|b|z){5}";
-    	final String regex = "(p|c|m){2}";
+    	final String regex = "(p)";
     	
 		final Pattern pattern = Pattern.compile(regex);
 		Matcher matcher = pattern.matcher(skills);
@@ -37,7 +37,7 @@ public class Solution5 {
     public static void main(String[] args) throws IOException {
        
         int res;
-        String skills = "pmcbzpcmbzpcmbzpc";
+        String skills = "mmpbzpcmbzpcmbzpcmbzcp";
         res = differentTeams(skills);
         
         System.out.println(res);
